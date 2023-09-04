@@ -1,0 +1,61 @@
+/* Universal */
+
+:root {
+/* Primary */
+--Red: hsl(0, 100%, 74%); 
+--Green: hsl(154, 59%, 51%);
+
+/* Accent */
+--Blue: hsl(248, 32%, 49%);
+
+/* Neutral */
+--DarkBlue: hsl(249, 10%, 26%);
+--GrayishBlue: hsl(246, 25%, 77%);
+}
+
+body {
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: var(--Red);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+
+.call-to-action {
+    background-color: var(--Blue);
+    margin: 0 5%;
+    padding: 1.5em;
+}
+
+.form-container {
+    background-color: white;
+}
+
+form input {
+    padding: 1em;
+}
+
+form [type='submit'] {
+    background-color: var(--Green);
+    color: white
+}
+
+.form-container p {
+    color: var(--GrayishBlue)
+}
+
+.form-container a {
+    color: var(--Red);
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
