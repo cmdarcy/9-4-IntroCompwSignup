@@ -23,6 +23,16 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
 main {
     margin:15% 10%;
 }
@@ -84,3 +94,28 @@ form [type='submit'] {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 750px) {
+    .content-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        margin: 0;
+        padding: 0 2em;
+        text-align: left;
+        max-width: 800px;
+    }
+
+    main p {
+        max-width: 95%;
+    }
+
+    section {
+        max-width: 800px;
+    }
+
+
+}
