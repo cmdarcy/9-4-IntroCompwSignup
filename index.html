@@ -3,18 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./styles.css">
+  <script src="./index.js" defer></script>
   <title>Frontend Mentor | Intro component with sign up form</title>
-
-
-
 </head>
+
 <body>
   <div class="content-container">
     <main>
@@ -28,14 +26,14 @@
       <div class="form-container rounded box-shadow">
         <form action="">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input type="text" placeholder="First Name" class="rounded" required>
+          <input data-namefield type="text" placeholder="First Name" class="rounded" required>
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input type="text" placeholder="Last Name" class="rounded" required> 
+          <input data-lastNamefield type="text" placeholder="Last Name" class="rounded" required> 
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input type="email" placeholder="Email Address" class="rounded" required>
+          <input data-emailfield type="email" placeholder="Email Address" class="rounded" required>
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input type="password" placeholder="Password" class="rounded" required>
-          <input type="submit" value="CLAIM YOUR FREE TRIAL" class="rounded box-shadow">
+          <input data-pwfield type="password" placeholder="Password" class="rounded" required>
+          <input id='submitButton' type="submit" value="CLAIM YOUR FREE TRIAL" class="rounded box-shadow">
         </form>
         <p class="spaced-text">By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
       </div>
