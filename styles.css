@@ -50,6 +50,24 @@ main {
     box-shadow: 0px 5px  rgba(72, 73, 77, 0.459);
 }
 
+.error {
+    color: var(--Red);
+    opacity: 1;
+}
+
+.success {
+    opacity: 0;
+}
+
+.error-border {
+    border: 1px solid var(--Red);
+    color: var(--Red);
+}
+
+.success-border {
+    border: 1px solid lightgray;
+}
+
 
 /* Main Section */
 .call-to-action {
@@ -62,26 +80,19 @@ main {
 .form-container {
     background-color: white;
     margin: 0 5%;
+}
+
+.input-container {
     position: relative;
 }
+
 
 svg {
     position: absolute;
     top: 40px;
-    right: 60px;
+    right: 10%;
     opacity: 0;
-}
-
-svg:nth-of-type(2) {
-    top: 125px;
-}
-
-svg:nth-of-type(3) {
-    top: 208px;
-}
-
-svg:nth-of-type(4) {
-    top: 290px;
+    overflow: visible;
 }
 
 form input {
@@ -109,6 +120,12 @@ form [type='submit'] {
 
 .form-container p {
     padding: 0 3em 1.5em; 
+}
+
+div.error, div.success {
+    text-align: end;
+    width: 90%;
+    padding-top: .5em;
 }
 
 /* Footer */

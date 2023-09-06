@@ -25,14 +25,26 @@
       <p class="call-to-action rounded spaced-text box-shadow"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
       <div class="form-container rounded box-shadow">
         <form action="">
-          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input data-namefield type="text" placeholder="First Name" class="rounded" required>
-          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input data-lastNamefield type="text" placeholder="Last Name" class="rounded" required> 
-          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input data-emailfield type="email" placeholder="Email Address" class="rounded" required>
-          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          <input data-pwfield type="password" placeholder="Password" class="rounded" required>
+          <div class="input-container">          
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            <input data-namefield type="text" placeholder="First Name" class="rounded">
+            <div class="error"></div>
+          </div>
+          <div class="input-container">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            <input data-lastNamefield type="text" placeholder="Last Name" class="rounded">   
+            <div class="error"></div>
+          </div>
+          <div class="input-container">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            <input data-emailfield type="email" placeholder="Email Address" class="rounded">
+            <div class="error"></div>
+          </div >
+          <div class="input-container">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            <input data-pwfield type="password" placeholder="Password" class="rounded">
+            <div class="error"></div>
+          </div >
           <input id='submitButton' type="submit" value="CLAIM YOUR FREE TRIAL" class="rounded box-shadow">
         </form>
         <p class="spaced-text">By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
