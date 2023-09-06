@@ -16,8 +16,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -62,7 +60,7 @@ Users should be able to:
 #### Concepts I Encountered that I would like to explore further...
 
 - Position absolute vs/with position relative
-- Pseudo-elements (`::before`, `::after` )
+- Pseudo-elements `::before`, `::after`
 - Dom-manipulation through JS
 
 ### Useful resources
