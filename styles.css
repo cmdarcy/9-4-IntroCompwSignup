@@ -109,6 +109,10 @@ form [type='submit'] {
     cursor: pointer;
 }
 
+form [type='submit']:hover {
+    background-color: hsla(154, 59%, 51%, 75%);
+}
+
 .form-container p {
     color: var(--GrayishBlue)
 }
@@ -120,6 +124,7 @@ form [type='submit'] {
 
 .form-container p {
     padding: 0 3em 1.5em; 
+    font-size: .75rem;
 }
 
 div.error, div.success {
